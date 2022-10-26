@@ -1,0 +1,11 @@
+[package]
+name = "hyper_microservice"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+
+[dependencies]
+hyper = "0.12"
+futures = "0.1"
+slab = "0.4"
