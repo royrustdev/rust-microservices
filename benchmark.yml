@@ -1,0 +1,10 @@
+---
+concurrency: 2
+base: "http://localhost:9000"
+iterations: 10000
+rampup: 10
+
+plan:
+  - name: Fetch root
+    request:
+      url: /
