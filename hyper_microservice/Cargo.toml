@@ -1,6 +1,6 @@
 [package]
 name = "hyper_microservice"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 publish = false
 
@@ -9,3 +9,5 @@ publish = false
 hyper = "0.12"
 futures = "0.1"
 slab = "0.4"
+regex = "0.1"
+lazy_static = "0.1"
